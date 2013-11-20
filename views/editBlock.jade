@@ -1,0 +1,42 @@
+div(class="md-modal md-effect-1", id="modal-2")
+  div(class="md-content")
+    h3 Edit Technology
+    div(id="edit_form" class="popup_form")
+      form(action="", name="edit")
+
+          fieldset
+            div(class="field")
+              label(for="name", id="name_label") Technology Name  
+              input(type="text", name="name", id="name", size="30", class="text-input", value="#{tech.name}")
+              label(class="error",for="name",id="name_error") This field is required.
+
+            div(class="field")
+              label(for="type",id="type_label") Technology Type 
+              div(class="styled_select")
+                select(name="type", id="type")
+                  option(value="language-framework", selected="language-framework"==tech.type) Language or Framework
+                  option(value="technique", selected="technique"==tech.type) Technique
+                  option(value="platform", selected="platform"==tech.type) Platform
+                  option(value="Tool", selected="tool"==tech.type) Tool
+
+            div(class="field")
+              label(for="stage",id="stage_label") Stage of Adoption
+              div(class="styled_select")
+                select(name="stage", id="stage")
+                  option(value="assess", selected="assess"==tech.stage) Assess
+                  option(value="hold", selected="hold"==tech.stage) Hold
+                  option(value="adopt", selected="adopt"==tech.stage) Adopt
+                  option(value="trial", selected="trial"==tech.stage) Trial
+
+            div(class="field")
+              label(for="description", id="description_label") Description
+              input(type="text", name="description", id="description", size="30", class="text-input", value="#{tech.description}")
+              label(class="error",for="description",id="description_error") This field is required. 
+
+            div(class="field hidden")
+              span(id="id") #{tech.id}
+              span(id="rev") #{tech.rev}
+              span(id="date_added") #{tech.date_added}
+
+          div(class="field")
+            input(type="submit", name="submit",class="button",id="submit_btn",value="Submit")

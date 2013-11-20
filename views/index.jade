@@ -1,0 +1,36 @@
+doctype 5
+html
+  head
+    title Technology Radar
+    link(rel="stylesheet", type="text/css", href="/css/global.css")
+    link(rel="stylesheet", type="text/css", href="/css/component.css")
+  body
+    div(class="tooltip hidden bigEntrance")
+      p
+        span(id="value")
+
+    div(class="createBlock")
+
+    div(class="md-overlay")
+
+    button(class="button md-trigger",data-modal="modal-1") Add New Tech
+
+    div(class="popup")
+      div(id="title")
+      div(id="description")
+      div(id="id", class="hidden")
+      button(class="button md-trigger", data-modal="modal-2") Edit
+
+
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js") 
+    script(src="d3/d3.v3.js")
+
+    script(src="js/modalEffects.js")
+    
+    script(type='text/javascript')
+      var data =!{JSON.stringify(data)}
+    
+    script(src="js/force.js")
+    script(src="js/script.js")
+    script(src="js/create.js")
+    script(src="js/edit.js")

@@ -1,0 +1,26 @@
+/* @license
+ * MyFonts Webfont Build ID 2544383, 2013-04-30T11:01:47-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Twentieth Century Std Medium by Monotype Imaging
+ * URL: http://www.myfonts.com/fonts/mti/twentieth-century-mt/std-medium/
+ * Copyright: Font software Copyright 1997 Adobe Systems Incorporated. Typeface designs Copyright 1997 The Monotype Corporation. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2544383
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/26d2ff");
+
+  
+@font-face {font-family: 'TwCenMTStd';src: url('webfonts/26D2FF_0_0.eot');src: url('webfonts/26D2FF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/26D2FF_0_0.woff') format('woff'),url('webfonts/26D2FF_0_0.ttf') format('truetype');}
+ 

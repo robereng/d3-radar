@@ -1,0 +1,25 @@
+/* @license
+ * MyFonts Webfont Build ID 2420008, 2012-11-28T11:07:02-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Twentieth Century Std ExtraBold by Monotype Imaging
+ * URL: http://www.myfonts.com/fonts/mti/twentieth-century-mt/std-extra-bold/
+ * Copyright: Font software Copyright 1997 Adobe Systems Incorporated. Typeface designs Copyright 1997 The Monotype Corporation. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2420008
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+
+@import url("//hello.myfonts.net/count/24ed28");
+
+  
+@font-face {font-family: 'TwCenMTStd-ExtraBold';src: url('/fonts/twentieth-century-extra-bold/webfonts/24ED28_0_0.eot');src: url('/fonts/twentieth-century-extra-bold/webfonts/24ED28_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/twentieth-century-extra-bold/webfonts/24ED28_0_0.woff') format('woff'),url('/fonts/twentieth-century-extra-bold/webfonts/24ED28_0_0.ttf') format('truetype');}
+ 
