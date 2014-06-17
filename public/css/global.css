@@ -222,6 +222,10 @@ g.node {
   cursor:pointer;
 }
 
+g.legendNode { 
+  cursor:pointer;
+}
+
 .flash {
   -webkit-animation-name: flashingNode;
   animation-name: flashingNode;
