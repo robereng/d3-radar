@@ -13,6 +13,10 @@ I had to revisit trigonometry lessons to get it all working, sin, cos and lovely
 
 So it works quite nicely. If you want to set this up for yourself, the backend is running on node, the database is couchDB. You can get free couchDb hosting at iris (iriscouch.com/). Just update the URLs in app.js once you have your database.
 
+A working demo is here:
+
+http://d3-radar-hosted.herokuapp.com/
+
 Documentation
 =====
 
