@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Technology Radar</title>
+    <link rel="stylesheet", type="text/css", href="css/global.css"/>
+    <link rel="stylesheet", type="text/css", href="css/component.css"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+  </head>
+  <body>
+    <div class="tooltip hidden bigEntrance">
+      <p><span id="value"/></p>
+    </div>
+
+    <div class="md-overlay"></div>
+
+    <div class="popup">
+      <div id="title"></div>
+      <div id="description"></div>
+      <div id="id", class="hidden"></div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/d3/d3.v3.js"></script>
+
+    <script src="js/modalEffects.js"></script>
+
+    <script type="text/javascript" src="js/lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="js/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="js/lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="js/lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="js/lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="js/lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="js/lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="js/lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="js/lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="js/lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="js/apigClient.js"></script>
+    
+    <script src="js/d3Radar.js"></script>
+    <script src="js/d3Radar.force.js"></script>
+    <script src="js/d3Radar.create.js"></script>
+    <script src="js/d3Radar.edit.js"></script>
+  </body>
+</html>

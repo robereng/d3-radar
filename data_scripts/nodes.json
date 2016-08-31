@@ -1,0 +1,33 @@
+[{"id":"","name":"Contiuous Delivery","description":"Ensure that every change to the system is releasable, and any version can be released at the push of a button","type":"technique","stage":"trial","date_added":"2013-10-28T12:54:58.495Z"},
+{"id":"","name":"Serverless","description":"Microservices running on AWS Lambda that run in the cloud and do not require virtual machines","type":"technique","stage":"adopt","date_added":"2013-10-28T13:15:20.245Z"},
+{"id":"","name":"Flux","description":"Application architecture pattern for React.js offering unidirectional data flow","type":"technique","stage":"adopt","date_added":"2013-10-28T13:19:03.221Z"},
+{"id":"","name":"QA in production","description":"Complimenting continuous delivery, the shift of QA effort to include monitoring prodution environments","type":"technique","stage":"trial","date_added":"2013-10-28T13:23:26.449Z"},
+{"id":"","name":"Reactive architectures","description":"Using asynchronous message driven architectures which consider responsiveness, maintainability, elasticity and scalability from the outset.","type":"technique","stage":"trial","date_added":"2013-10-28T13:28:10.361Z"},
+{"id":"","name":"Load Impact","description":"Load test your website, app or API instantly with up to 1.2 million concurrent users.","type":"tool","stage":"assess","date_added":"2013-10-28T13:32:36.924Z"},
+{"id":"","name":"Webpack","description":"Flexible and extensible module bundler","type":"tool","stage":"assess","date_added":"2013-10-28T13:46:51.271Z"},
+{"id":"","name":"Webstorm","description":"Lightweight yet powerful JavaScript IDE for client side and server side development","type":"tool","stage":"adopt","date_added":"2013-10-28T13:47:34.914Z"},
+{"id":"","name":"AWS Opsworks","description":"Configuration management service that makes it easy for DevOps engineers to operate and manage applications using Chef automation","type":"tool","stage":"trial","date_added":"2013-10-28T13:48:44.050Z"},
+{"id":"","name":"Kubernetes","description":"Automatiion of deployment, scaling, and management of containerized applications.","type":"platform","stage":"trial","date_added":"2013-10-28T14:19:37.403Z"},
+{"id":"","name":"AWS API Gateway","description":"Fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale","type":"platform","stage":"trial","date_added":"2013-10-28T14:19:37.403Z"},
+{"id":"","name":"Grunt","description":"Automation of our builds, minification and bundling","type":"tool","stage":"adopt","date_added":"2013-10-28T13:50:14.599Z"},
+{"id":"","name":"ES Lint","description":"Pluggable and configurable linter for javascript","type":"tool","stage":"adopt","date_added":"2013-10-28T13:53:52.668Z"},
+{"id":"","name":"Bower","description":"Javascript package manager","type":"tool","stage":"adopt","date_added":"2013-10-28T13:55:33.279Z"},
+{"id":"","name":"Express.js","description":"Excellent web framework for node.js","type":"language-framework","stage":"adopt","date_added":"2013-10-28T14:09:27.670Z"},
+{"id":"","name":"Node.js","description":"Very nimble server side javascript framework","date_added":"2013-11-20T12:36:00.995Z","type":"language-framework","stage":"adopt"},
+{"id":"","name":"SASS","description":"Powerful CSS extension language, providing mixins, variables, nesting and more","type":"language-framework","stage":"adopt","date_added":"2013-10-28T14:12:54.654Z"},
+{"id":"","name":"D3.js","description":"amazing data visualisation library that was used to build this very radar","type":"language-framework","stage":"trial","date_added":"2013-10-28T14:13:38.890Z"},
+{"id":"","name":"React.js","description":"Component based javascript UI Library","type":"language-framework","stage":"adopt","date_added":"2013-10-28T14:15:23.113Z"},
+{"id":"","name":"ES6","description":"Introducing new essentials to javascript including arrow functions, promises, classes, const, let and so on","type":"language-framework","stage":"adopt","date_added":"2013-10-28T14:16:34.085Z"},
+{"id":"","name":"MongoDB","description":"BSON document based NoSQL database","type":"platform","stage":"adopt","date_added":"2013-10-28T14:18:54.269Z"},
+{"id":"","name":"Docker","description":"Container platform allowing the entire applicaton and its dependencies to be versioned and efficiently distributed across machines","type":"platform","stage":"trial","date_added":"2013-10-28T14:19:37.403Z"},
+{"id":"","name":"CoffeeScript","description":"turbo charged javascript","type":"language-framework","stage":"hold","date_added":"2013-10-28T15:59:54.371Z"},
+{"id":"","name":"BEM","description":"Block Element Modifier naming convention allowing for neat organisation of CSS classes and files","stage":"adopt","type":"technique","date_added":"2013-10-28T14:19:37.403Z"},
+{"id":"","name":"Swift","description":"Swift is a powerful and intuitive programming language for macOS/iOS","date_added":"2013-11-20T12:36:00.995Z","type":"language-framework","stage":"adopt"},
+{"id":"","name":"Redux","description":"Predictable state container for JavaScript apps.","date_added":"2013-11-20T12:36:00.995Z","type":"language-framework","stage":"trial"},
+{"id":"","name":"React Native","description":"Build native cross platform mobile apps using JavaScript and React.","date_added":"2013-11-20T12:36:00.995Z","type":"language-framework","stage":"trial"}
+]
+
+
+
+
+
